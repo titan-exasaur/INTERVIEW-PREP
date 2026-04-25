@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Linear Regression</title>
+</head>
+<body>
+
+<h1>SIMPLE LINEAR REGRESSION</h1>
+
+<form action="/predict" method="post">
+    <label>Enter X:</label>
+    <input type="number" step="any" name="x" required>
+    <button type="submit">Predict</button>
+</form>
+
+{% if prediction is defined %}
+    <h2>Input: {{ x }}</h2>
+    <h2>Prediction: {{ prediction }}</h2>
+{% endif %}
+
+</body>
+</html>
