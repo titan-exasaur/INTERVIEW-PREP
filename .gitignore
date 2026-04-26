@@ -20,3 +20,6 @@ env/
 # Model / artifacts (optional - for ML projects)
 *.pkl
 *.joblib
+
+# virtual environment
+venv/*
