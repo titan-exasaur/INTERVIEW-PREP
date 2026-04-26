@@ -23,3 +23,6 @@ env/
 
 # virtual environment
 venv/*
+
+# API Key and other credentials
+.env
